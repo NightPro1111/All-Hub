@@ -10,7 +10,7 @@ getgenv().Setting = {
         ["Enable Cam Farm"] = false,
         ["White Screen"] = false, 
         ["FPS Boost"] = true,
-        ["Bypass TP"] = true, 
+        ["Bypass TP"] = false, 
         ["Random & Store Fruit"] = true
     },
     ["Item"] = {
