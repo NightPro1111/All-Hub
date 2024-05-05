@@ -1,0 +1,9 @@
+repeat wait() until game:IsLoaded()
+getgenv().Config = {
+    ['Devil Fruit Sniper'] = {"Kilo-Kilo","Bomb-Bomb","Spin-Spin","Chop-Chop","Spring-Spring","Rocket-Rocket",'Mammoth-Mammoth','T-Rex-T-Rex','Kitsune-Kitsune','Ghost-Ghost','Sound-Sound','Pain-Pain',"Smoke-Smoke","Spike-Spike","Flame-Flame","Falcon-Falcon","Ice-Ice","Sand-Sand","Dark-Dark","Revive-Revive","Diamond-Diamond","Light-Light","Rubber-Rubber","Barrier-Barrier","Magma-Magma","Quake-Quake","Buddha-Buddha","Love-Love","Spider-Spider","Phoenix-Phoenix","Portal-Portal","Rumble-Rumble","Paw-Paw","Blizzard-Blizzard","Gravity-Gravity","Dough-Dough","Shadow-Shadow","Venom-Venom","Control-Control","Spirit-Spirit","Dragon-Dragon","Leopard-Leopard"}, -- You can remove fruit if u dont need 
+    ['Start Kaitun/Cuttay'] = true,
+    ['Disable Hop Server'] = true, -- If true then it will not hop server and false then it will hop server
+    ['Disable Hop Server If Near Player'] = true, -- If true then it will not hop server if near player
+    ['Disable Hop Server For Fruit 1M+ [Quest Sea 3]'] = true -- If true then it will not hop server if for fruit 1m+
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AdelOnTheTop/Adel-Hub/main/Main.lua"))()
