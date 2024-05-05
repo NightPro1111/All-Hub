@@ -25,7 +25,7 @@ getgenv().ConfigSetting = {
         ["Fruit To Snipe"] = "",
         ["Enabled"] = "",
     },
-    ["White Screen"] = true, -- reduce lag, 
+    ["White Screen"] = false, -- reduce lag, 
     ["Auto Awake Fruit"] = true,
 }
 
