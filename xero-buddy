@@ -9,8 +9,8 @@ getgenv().Configs = {
     ["Bypass TP"] = true,
     ["Time to kill"] = 180, -- seconds - max time to kill the target
     ["Chat"] = {
-        ["Enable"] = true,
-        ["Message"] = {"bet boi on top , xero hub on top free auto bounty"}, -- Input your message here
+        ["Enable"] = false,
+        ["Message"] = {"xero hub on top free auto bounty"}, -- Input your message here
     },
     ["Run When Low Health"] = {
         ["Enable"] = true,
