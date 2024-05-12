@@ -1,9 +1,36 @@
-repeat wait() until game:IsLoaded()
-getgenv().Config = {
-    ['Devil Fruit Sniper'] = {"Kilo-Kilo","Bomb-Bomb","Spin-Spin","Chop-Chop","Spring-Spring","Rocket-Rocket",'Mammoth-Mammoth','T-Rex-T-Rex','Kitsune-Kitsune','Ghost-Ghost','Sound-Sound','Pain-Pain',"Smoke-Smoke","Spike-Spike","Flame-Flame","Falcon-Falcon","Ice-Ice","Sand-Sand","Dark-Dark","Revive-Revive","Diamond-Diamond","Light-Light","Rubber-Rubber","Barrier-Barrier","Magma-Magma","Quake-Quake","Buddha-Buddha","Love-Love","Spider-Spider","Phoenix-Phoenix","Portal-Portal","Rumble-Rumble","Paw-Paw","Blizzard-Blizzard","Gravity-Gravity","Dough-Dough","Shadow-Shadow","Venom-Venom","Control-Control","Spirit-Spirit","Dragon-Dragon","Leopard-Leopard"}, -- You can remove fruit if u dont need 
-    ['Start Kaitun/Cuttay'] = true,
-    ['Disable Hop Server'] = true, -- If true then it will not hop server and false then it will hop server
-    ['Disable Hop Server If Near Player'] = true, -- If true then it will not hop server if near player
-    ['Disable Hop Server For Fruit 1M+ [Quest Sea 3]'] = true -- If true then it will not hop server if for fruit 1m+
+getgenv().ConfigSetting = {
+    ["Team"] = "Pirates", -- Marines
+    ["Webhook"] = {
+        ["Url"] = "https://discord.com/api/webhooks/1197208705561796618/hdI1ufoID7E3bcXkeVDhEbmj2XsGqm4faF5IMMAmA4NXyhukSg7jKucJAJc_fLNPW7FH", -- link webhook
+        ["Enabled"] = true, -- enable webhook
+    },
+    ["Auto Farm Level"] = true,
+    ["Auto Dark Step"] = true,
+    ["Auto Death Step"] = true,
+    ["Auto Electro"] = true,
+    ["Auto Electric Claw"] = true,
+    ["Auto Dragon Breath"] = true,
+    ["Auto Dragon Talon"] = true,
+    ["Auto Fishman Karate"] = true,
+    ["Auto Sharkman Karate"] = true,
+    ["Auto Super Human"] = true,
+    ["Auto God Human"] = true,
+    ["Auto Soul Guitar"] = true,
+    ["Auto Yama"] = true,
+    ["Auto Dark Dagger"] = true,
+    ["Auto True Triple Katana"] = true,
+    ["Auto Race V2"] = true,
+    ["Method Farm Beli"] = "Chest", -- "Farm" or "Chest" to earn beli
+    ["Snipe Fruit"] = {
+        ["Fruit To Snipe"] = "",
+        ["Enabled"] = false,
+    },
+    ["White Screen"] = false, -- reduce lag, 
+    ["Auto Awake Fruit"] = true,
+    ["Safe Auto Farm"] = true, -- true for reduce reset stat (will hop server after done 30 quest)
+    ["Auto Saber"] = true,
+    ["Auto Acidum Rifle"] = true,
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AdelOnTheTop/Adel-Hub/main/Main.lua"))()
+
+loadstring(game:HttpGet("https://xerohub.click/script/kaitun.lua"))()
+getgenv().Auto_Saber = true
