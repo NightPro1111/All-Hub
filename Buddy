@@ -1,5 +1,5 @@
 getgenv().Setting = {
-    ["Team"] = "Pirates",
+    ["Team"] = "Marines",
     ["Chat"] = {},
     ["Skip Race V4"] = true,
     ["Misc"] = {
